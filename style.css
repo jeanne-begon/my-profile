@@ -1,0 +1,138 @@
+body {
+	background:#DFE0E0;
+	color: #3B4358;
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+}
+
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 32px;
+	display: inline;
+}
+
+.highlighted-rose{
+	color: #D0826F;
+	font-family: 'Raleway', sans-serif
+}
+.font-normal{
+	font-style: normal;
+}
+.img-circle{
+	border-radius: 50%; 
+}	
+
+h2 {
+	color: #D0826F;
+	font-family: 'Raleway', sans-serif;
+	font-size:26px;
+	display: inline;
+}
+.btn-pink{
+	background-color: #D0826F;
+	color: white;
+	padding: 15px 20px;
+	margin: 10px;
+	text-decoration: none;
+}
+.btn-pink:hover{
+	background-color: #3B4358;
+	color: white;
+}
+
+
+/*Custom design with class*/
+.container {
+	width: 700px;
+	margin: 40px auto;
+	padding: 10px;
+}
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+.banner{
+	background: white;
+	padding: 60px;
+	margin:50px;
+	box-shadow: 0px 10px 30px #3B4358;
+	border-radius: 4px;
+}
+
+.bio{
+	display: flex;
+	height:155px;
+	flex-wrap: wrap;
+}
+
+.text-left{
+	background: white;
+	border-radius: 4px;
+	height: 100px;
+	padding: 12px;
+	margin-top:8px;
+	flex: 5
+}
+.img-right{
+	float: right;
+	width: 200px;
+	height: 210px;
+	flex: 2
+}
+
+.card-white {
+	background: white;
+	padding: 60px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0px 10px 30px #3B4358;
+	border-radius: 4px;
+	text-align: center;
+}
+#Enactus p{
+	margin-bottom: 40px;
+}
+
+.list-inline1 {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline1 li {
+	display: inline;
+	padding: 40px;
+}
+
+.footer {
+	background: white;
+	padding: 60px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0px 10px 30px #3B4358;
+	border-radius: 4px;
+	text-align: center;
+}
+.chat{
+	list-style: none;
+	padding-left: 0px;
+}
+.chat li{
+	display: inline;
+	padding: 10px;
+}
+.chat i{
+	color: #3B4358;
+	font-size: 26px;
+}
